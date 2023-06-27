@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Coffe_Shop_MVC.props" />
+</Project>

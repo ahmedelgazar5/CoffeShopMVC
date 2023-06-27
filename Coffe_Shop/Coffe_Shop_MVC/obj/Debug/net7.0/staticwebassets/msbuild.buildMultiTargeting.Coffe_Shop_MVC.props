@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Coffe_Shop_MVC.props" />
+</Project>
