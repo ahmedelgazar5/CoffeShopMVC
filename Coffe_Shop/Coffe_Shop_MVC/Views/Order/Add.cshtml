@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add</h1>
+@model Order
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="w-50">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div>
+            <label asp-for="Order_Number">Number of orders</label>
+            <input class="form-control" asp-for="Order_Number" />
+            <span asp-validation-for="Order_Number" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Ordered_At">Number of orders</label>
+            <input class="form-control" asp-for="Ordered_At" />
+            <span asp-validation-for="Ordered_At" class="text-danger"></span>
+        </div>
+        <input type="submit" value="Add Order" class="btn btn-success mt-3 d-flex align-self-center" />
+    </form>
+
+</div>
+

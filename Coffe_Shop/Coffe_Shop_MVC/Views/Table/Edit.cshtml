@@ -1,0 +1,14 @@
+﻿@model Table
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="w-50">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div>
+            <label asp-for="Number">Number of table</label>
+            <input class="form-control" asp-for="Number" />
+            <span asp-validation-for="Number" class="text-danger"></span>
+        </div>
+        <input type="submit" value="Update Table" class="btn btn-success mt-3 d-flex align-self-center" />
+    </form>
+
+</div>

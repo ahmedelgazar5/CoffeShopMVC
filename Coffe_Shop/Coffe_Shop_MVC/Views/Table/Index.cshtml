@@ -1,0 +1,32 @@
+﻿@model List<Table>
+<style>
+    .column {
+        position: relative;
+    }
+    .column .button{
+            position: absolute;
+            top: 50%;
+            left: 13%;
+    }
+</style>
+<a asp-action="Add" class="btn btn-secondary ">Add</a>
+<table class="table d-flex justify-content-center">
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td class="column">
+                <span class="fs-1 ">@item.Number</span>
+                <img src="~/Imgs/Table.jpg" alt="TableImage" class="w-50" />
+                <div class="button">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary ">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary ">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-secondary ">Delete</a>
+                </div>
+               
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

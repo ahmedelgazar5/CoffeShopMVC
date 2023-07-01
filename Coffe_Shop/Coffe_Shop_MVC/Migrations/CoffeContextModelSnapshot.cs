@@ -40,7 +40,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Cheque", b =>
@@ -68,7 +68,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasIndex("Table_Id");
 
-                    b.ToTable("Cheques");
+                    b.ToTable("Cheques", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Item", b =>
@@ -100,7 +100,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Items");
+                    b.ToTable("Items", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Order", b =>
@@ -131,7 +131,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasIndex("Table_Id");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Order_Item", b =>
@@ -146,7 +146,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasIndex("Item_Id");
 
-                    b.ToTable("Order_Items");
+                    b.ToTable("Order_Items", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Table", b =>
@@ -163,7 +163,7 @@ namespace Coffe_Shop_MVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tables");
+                    b.ToTable("Tables", (string)null);
                 });
 
             modelBuilder.Entity("Coffe_Shop_MVC.Models.Cheque", b =>

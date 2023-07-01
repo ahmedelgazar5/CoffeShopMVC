@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\seko\\ITI\\Full Stack Web Dev .NET\\ASP Core .NET MVC\\Project MVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj": {}
+    "G:\\Hossam-ITI\\MVC-ASB.Net.Core\\Project\\CoffeShop\\CoffeShopMVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj": {}
   },
   "projects": {
-    "D:\\seko\\ITI\\Full Stack Web Dev .NET\\ASP Core .NET MVC\\Project MVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj": {
+    "G:\\Hossam-ITI\\MVC-ASB.Net.Core\\Project\\CoffeShop\\CoffeShopMVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\seko\\ITI\\Full Stack Web Dev .NET\\ASP Core .NET MVC\\Project MVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj",
+        "projectUniqueName": "G:\\Hossam-ITI\\MVC-ASB.Net.Core\\Project\\CoffeShop\\CoffeShopMVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj",
         "projectName": "Coffe_Shop_MVC",
-        "projectPath": "D:\\seko\\ITI\\Full Stack Web Dev .NET\\ASP Core .NET MVC\\Project MVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj",
-        "packagesPath": "C:\\Users\\Blank\\.nuget\\packages\\",
-        "outputPath": "D:\\seko\\ITI\\Full Stack Web Dev .NET\\ASP Core .NET MVC\\Project MVC\\Coffe_Shop\\Coffe_Shop_MVC\\obj\\",
+        "projectPath": "G:\\Hossam-ITI\\MVC-ASB.Net.Core\\Project\\CoffeShop\\CoffeShopMVC\\Coffe_Shop\\Coffe_Shop_MVC\\Coffe_Shop_MVC.csproj",
+        "packagesPath": "C:\\Users\\hassan\\.nuget\\packages\\",
+        "outputPath": "G:\\Hossam-ITI\\MVC-ASB.Net.Core\\Project\\CoffeShop\\CoffeShopMVC\\Coffe_Shop\\Coffe_Shop_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Blank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hassan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

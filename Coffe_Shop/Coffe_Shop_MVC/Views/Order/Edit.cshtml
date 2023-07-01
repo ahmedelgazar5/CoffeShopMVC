@@ -1,0 +1,35 @@
+﻿
+@{
+    SelectList tables = new SelectList(ViewBag.Tables, "Id", "Number");
+    SelectList cheques = new SelectList(ViewBag.Cheques, "Id", "Cheque_Number");
+}
+<h1>Edit</h1>
+@model Order
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="w-50">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div>
+            <label asp-for="Order_Number">Number of orders</label>
+            <input class="form-control" asp-for="Order_Number" />
+            <span asp-validation-for="Order_Number" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Ordered_At">Number of orders</label>
+            <input class="form-control" asp-for="Ordered_At" />
+            <span asp-validation-for="Ordered_At" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Table"></label>
+            <select class="form-control" asp-for="Table_Id" asp-items="tables"> </select>
+            <span asp-validation-for="Table_Id" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Cheque"></label>
+            <select class="form-control" asp-for="Cheque_Id" asp-items="cheques"> </select>
+            <span asp-validation-for="Cheque_Id" class="text-danger"></span>
+        </div>
+        <input type="submit" value="Edit Order" class="btn btn-success mt-3 d-flex align-self-center" />
+    </form>
+
+</div>

@@ -1,5 +1,7 @@
 using Coffe_Shop_MVC.Models;
 using Coffe_Shop_MVC.Repository.CategoryRepo;
+using Coffe_Shop_MVC.Repository.OrderRepo;
+using Coffe_Shop_MVC.Repository.TableRepo;
 using Microsoft.EntityFrameworkCore;
 
 namespace Coffe_Shop_MVC
@@ -14,6 +16,8 @@ namespace Coffe_Shop_MVC
             builder.Services.AddControllersWithViews();
             // Register IRepository
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ITableRepository, TableRepository>();
+            builder.Services.AddScoped<IOrderRepository,OrderRepository>();
             // Register Context
             builder.Services.AddDbContext<CoffeContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("CS"))

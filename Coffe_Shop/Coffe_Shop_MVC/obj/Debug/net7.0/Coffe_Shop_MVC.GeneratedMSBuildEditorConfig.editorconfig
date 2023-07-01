@@ -9,45 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Coffe_Shop_MVC
 build_property.RootNamespace = Coffe_Shop_MVC
-build_property.ProjectDir = D:\seko\ITI\Full Stack Web Dev .NET\ASP Core .NET MVC\Project MVC\Coffe_Shop\Coffe_Shop_MVC\
+build_property.ProjectDir = G:\Hossam-ITI\MVC-ASB.Net.Core\Project\CoffeShop\CoffeShopMVC\Coffe_Shop\Coffe_Shop_MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\seko\ITI\Full Stack Web Dev .NET\ASP Core .NET MVC\Project MVC\Coffe_Shop\Coffe_Shop_MVC
+build_property.MSBuildProjectDirectory = G:\Hossam-ITI\MVC-ASB.Net.Core\Project\CoffeShop\CoffeShopMVC\Coffe_Shop\Coffe_Shop_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Category/Details.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Category/Index.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Home/Index.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Home/Privacy.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/Error.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Order/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/_ViewImports.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Table/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Table/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Table/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Table/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/_ViewStart.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/seko/ITI/Full Stack Web Dev .NET/ASP Core .NET MVC/Project MVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/_Layout.cshtml]
+[G:/Hossam-ITI/MVC-ASB.Net.Core/Project/CoffeShop/CoffeShopMVC/Coffe_Shop/Coffe_Shop_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hjyei9zzpw
