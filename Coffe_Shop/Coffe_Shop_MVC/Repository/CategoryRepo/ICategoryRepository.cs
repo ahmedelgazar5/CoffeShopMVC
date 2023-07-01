@@ -8,7 +8,7 @@ namespace Coffe_Shop_MVC.Repository.CategoryRepo
         Category GetById(int id);
         void Add(Category category);
         void Update(Category category);
-        void Delete(Category category);
+        void Delete(int id);
         void Save();
     }
 }

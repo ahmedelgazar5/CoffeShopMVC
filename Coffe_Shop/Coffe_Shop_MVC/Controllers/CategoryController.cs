@@ -21,6 +21,41 @@ namespace Coffe_Shop_MVC.Controllers
            Category category=  categoryRepository.GetById(id);
             return View(category);
         }
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Category category = categoryRepository.GetById(id);
+            return View(category);
+        }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category category)
+        {
+            categoryRepository.Update(category);
+            categoryRepository.Save();
+            return RedirectToAction("Index");
+        }
+        public IActionResult Add()
+        {
+             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Add(Category category)
+        {
+            categoryRepository.Add(category);
+            categoryRepository.Save();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete (int id)
+        {
+            //Category category = categoryRepository.GetById(id);
+            categoryRepository.Delete(id);
+            categoryRepository.Save();
+            return RedirectToAction("Index");
+        }
     }
 }

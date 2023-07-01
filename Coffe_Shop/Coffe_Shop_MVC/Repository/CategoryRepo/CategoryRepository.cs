@@ -11,27 +11,28 @@ namespace Coffe_Shop_MVC.Repository.CategoryRepo
         }
         public List<Category> GetAll()
         {
-            return context.Categories.ToList();
+            return context.Categories.Where(c=>c.IsDeleted==false).ToList();
         }
         public Category GetById(int id)
         {
-            return context.Categories.FirstOrDefault(c => c.Id == id); 
+            return context.Categories.FirstOrDefault(c => c.Id == id && c.IsDeleted == false); 
         }
 
         public void Add(Category category)
         {
             context.Categories.Add(category);
-            Save();
+         
         }
         public void Update(Category category)
         {
             context.Categories.Update(category);
-            Save();
+    
         }
-        public void Delete(Category category)
+        public void Delete(int id)
         {
-            context.Categories.Remove(category);
-            Save();
+            var category = context.Categories.FirstOrDefault(c => c.Id == id);
+            category.IsDeleted = true;
+  
         }
         public void Save()
         {

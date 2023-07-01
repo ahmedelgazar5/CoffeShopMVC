@@ -8,6 +8,7 @@ namespace Coffe_Shop_MVC.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
+        public bool IsDeleted { get; set; } = false;
         public DateTime Created_At { get; set; }
         [ForeignKey("Category")]
         public int CategoryId { get; set; }

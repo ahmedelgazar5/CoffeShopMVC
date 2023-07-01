@@ -18,7 +18,7 @@ namespace Coffe_Shop_MVC.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // fluent api
-            modelBuilder.Entity<Order_Item>().HasKey("Order_Id","Item_Id" );
+            modelBuilder.Entity<Order_Item>().HasKey("Order_Id","Item_Id");
             //modelBuilder.Entity<Cheque>().
                 
         }

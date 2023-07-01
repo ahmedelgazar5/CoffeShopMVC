@@ -1,5 +1,7 @@
 using Coffe_Shop_MVC.Models;
 using Coffe_Shop_MVC.Repository.CategoryRepo;
+using Coffe_Shop_MVC.Repository.ChequeRepo;
+using Coffe_Shop_MVC.Repository.ItemRepo;
 using Microsoft.EntityFrameworkCore;
 
 namespace Coffe_Shop_MVC
@@ -14,6 +16,8 @@ namespace Coffe_Shop_MVC
             builder.Services.AddControllersWithViews();
             // Register IRepository
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IChequeRepository, ChequeRepository>();
+            builder.Services.AddScoped<IItemRepository, ItemRepository>();
             // Register Context
             builder.Services.AddDbContext<CoffeContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("CS"))

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+ 
+@model Item
+
+<h1>Details</h1>
+
+<div class="row justify-content-center">
+    <div class="col-6 text-center">
+        <h1> @Model.Name </h1>
+        <h2> @Model.Description </h2>
+        <h3> @Model.Price </h3>
+        <h4> @Model.Created_At </h4>
+        <a asp-action="index" > Back To List </a>  
+    </div>
+
+</div>

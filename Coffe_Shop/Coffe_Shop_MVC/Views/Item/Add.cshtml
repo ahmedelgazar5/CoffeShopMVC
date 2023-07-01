@@ -1,0 +1,23 @@
+﻿
+@{
+    SelectList categories = new SelectList(ViewBag.categories, "Id", "Name");
+    ViewData["Title"] = "Add";
+}
+@model Item
+<h1>Add</h1>
+
+<form method="post">
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="form-control" />
+    <label asp-for="Description"></label>
+    <input asp-for="Description" class="form-control" />
+    <label asp-for="Price"></label>
+    <input asp-for="Price" class="form-control" />
+    <label asp-for="Created_At"></label>
+    <input asp-for="Created_At" class="form-control" />
+    <label asp-for="Category"></label>
+    <select asp-for="CategoryId" asp-items="categories"></select>
+
+    <input type="submit" value="Add" class="btn btn-success" />
+</form>
+<a asp-action="index"> Back To List </a>  

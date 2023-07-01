@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+@model Category
+<h1>Edit</h1>
+
+<div class="row justify-content-center p-5">
+    <div class="col-6">
+
+    <form method="post">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name" />
+
+        <label  asp-for="Description"></label>
+        <input class="form-control" asp-for="Description" />
+
+        <input type="submit" value="Edit" class="m-5 btn btn-success"/>
+    </form>
+    </div>
+</div>
